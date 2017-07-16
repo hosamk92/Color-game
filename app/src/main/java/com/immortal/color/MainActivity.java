@@ -42,8 +42,8 @@ public class MainActivity extends AppCompatActivity {
         rand = new Random();
         final Intent intent = new Intent(this, gameover.class);
 
-        n = rand.nextInt(9) ;
-        n2 = rand.nextInt(9) ;
+        n = rand.nextInt(10) ;
+        n2 = rand.nextInt(10) ;
         tr = rand.nextInt(2) ;
         if(tr==1)n2=n;
         t1.setText(Colo[n]);
@@ -61,8 +61,8 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
                 // Code here executes on main thread after user presses button
-                n = rand.nextInt(9) ;
-                n2 = rand.nextInt(9) ;
+                n = rand.nextInt(10) ;
+                n2 = rand.nextInt(10) ;
                 tr = rand.nextInt(2) ;
                 if(tr==1)n2=n;
                 t1.setText(Colo[n]);
@@ -82,8 +82,8 @@ public class MainActivity extends AppCompatActivity {
                     finish();
                 }
                 // Code here executes on main thread after user presses button
-                n = rand.nextInt(9) ;
-                n2 = rand.nextInt(9) ;
+                n = rand.nextInt(10) ;
+                n2 = rand.nextInt(10) ;
                 tr = rand.nextInt(2) ;
                 if(tr==1)n2=n;
                 t1.setText(Colo[n]);

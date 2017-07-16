@@ -16,6 +16,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:srcCompat="@android:drawable/btn_dialog"
+        android:background="@drawable/coo"
         android:id="@+id/wrong"
         android:layout_marginStart="23dp"
         android:layout_marginBottom="12dp"
@@ -60,13 +61,16 @@
         android:layout_alignParentStart="true" />
 
     <ImageButton
-        android:layout_width="55dp"
+
+        android:layout_width="30dp"
         android:layout_height="wrap_content"
-        app:srcCompat="@mipmap/ic_launcher"
+        app:srcCompat="@android:drawable/checkbox_on_background"
         android:id="@+id/true1"
-        android:background="@android:color/transparent"
+        android:background="@drawable/coo"
         android:layout_alignTop="@+id/wrong"
         android:layout_alignParentEnd="true"
-        android:layout_marginEnd="17dp" />
+        android:layout_marginEnd="17dp"
+        android:layout_alignBottom="@+id/wrong"
+        android:scaleType="fitCenter" />
 
 </RelativeLayout>
